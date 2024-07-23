@@ -15,6 +15,7 @@ namespace GestorColecciones.Controllers
         private GestorColeccion bd = new GestorColeccion();
 
         [HttpGet]
+        [Route("api/fosiles")]
         public IEnumerable<Fosil> ObtenerFosiles()
         {
             //se rtorna una lista de fosiles

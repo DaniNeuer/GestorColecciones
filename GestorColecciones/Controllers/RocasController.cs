@@ -31,6 +31,7 @@ namespace GestorColecciones.Controllers
 
 
         [HttpPost]
+        //[Route("api/rocas")]
         public IHttpActionResult CrearRoca(Roca roca)
         {
             if (!ModelState.IsValid)
