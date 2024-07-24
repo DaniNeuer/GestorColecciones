@@ -102,6 +102,14 @@
     <Compile Include="Migrations\202407232155349_InitialCreate.Designer.cs">
       <DependentUpon>202407232155349_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202407240251387_AddDescripcionPesoToRocaFosil.cs" />
+    <Compile Include="Migrations\202407240251387_AddDescripcionPesoToRocaFosil.Designer.cs">
+      <DependentUpon>202407240251387_AddDescripcionPesoToRocaFosil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202407240253235_AddDescripcionPesoToRocaFosil1.cs" />
+    <Compile Include="Migrations\202407240253235_AddDescripcionPesoToRocaFosil1.Designer.cs">
+      <DependentUpon>202407240253235_AddDescripcionPesoToRocaFosil1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Fosil.cs" />
     <Compile Include="Models\Roca.cs" />
@@ -122,6 +130,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202407232155349_InitialCreate.resx">
       <DependentUpon>202407232155349_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202407240251387_AddDescripcionPesoToRocaFosil.resx">
+      <DependentUpon>202407240251387_AddDescripcionPesoToRocaFosil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202407240253235_AddDescripcionPesoToRocaFosil1.resx">
+      <DependentUpon>202407240253235_AddDescripcionPesoToRocaFosil1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
